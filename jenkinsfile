@@ -7,7 +7,7 @@ deployment environment')
  stages {
  stage('Checkout') {
  steps {
- git branch: 'main', url: 'https://github.com/<your-username>/<repo-name>.git'
+ git branch: 'main', url: 'https://github.com/HarshidGiriver/Assesment_7.git'
  }
  }
  stage('Show Parameter') {
